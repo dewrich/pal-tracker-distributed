@@ -48,8 +48,8 @@ subprojects {
         compile "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
         compile "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
         compile "org.slf4j:slf4j-api:$slf4jVersion"
-        compile "org.springframework.cloud:spring-cloud-commons:$springCloudVersion"
-        
+        compile "org.springframework.cloud:spring-cloud-commons:2.0.2.RELEASE"
+
         testCompile "junit:junit:$junitVersion"
         testCompile "org.mockito:mockito-core:$mockitoVersion"
         testCompile "org.assertj:assertj-core:$assertJVersion"
